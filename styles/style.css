@@ -42,6 +42,7 @@
   font-size: 18px;
   font-weight: normal;
   z-index: 2;
+  margin: 0;
 }
 .link {
   color: #2f80ed;
@@ -66,7 +67,7 @@
 .description {
   display: flex;
   justify-content: center;
-  margin: 100px 0;
+  margin: 100px 0 0;
 }
 .two-columns {
   display: flex;
@@ -105,16 +106,16 @@
   align-items: center;
   position: relative;
 }
-.section-title_theme_light {
+.section-title {
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
   width: 60%;
   text-align: center;
-  margin-top: 100px;
   margin-bottom: 20px;
+  margin-top: 100px;
 }
-.section-subtitle_theme_light {
+.section-subtitle {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -132,15 +133,13 @@
   justify-content:space-between;
   flex-wrap: wrap;
   display: flex;
-}
-.table_theme_light {
   margin: 0 auto 100px;
 }
-.table__cell_theme_light {
+.table__cell {
   width: 250px;
   margin-top: 60px;
 }
-.table__heading_theme_light {
+.table__heading {
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
@@ -148,7 +147,7 @@
   margin-bottom: 20px;
   margin-top: 0;
 }
-.table__text_theme_light {
+.table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -179,7 +178,7 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  margin-top: 70px;
+  margin: 70px 0 0;
 }
 .feynman__link {
   line-height: 51px;
@@ -202,23 +201,11 @@
 }
 .section-title_theme_dark {
   color: white;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 600;
-  width: 60%;
-  text-align: center;
-  margin-bottom: 20px;
   margin-top: 90px;
   z-index: 2;
 }
 .section-subtitle_theme_dark {
   color: white;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  width: 60%;
-  margin: 0;
-  text-align: center;
   z-index: 2;
 }
 .table_theme_dark {
@@ -230,20 +217,6 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
-}
-.table__heading_theme_dark {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  margin-top: 0;
-}
-.table__text_theme_dark {
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  margin-bottom: 0;
-  margin-top: 0;
 }
  .kaufman__triangle {
   position: absolute;
@@ -308,6 +281,9 @@
   display: flex;
   text-decoration: none;
   align-items: center;
+}
+.footer__column-link:hover {
+  background-color: rgb(255, 0, 162);
 }
 .footer__column_content_social {
   flex-direction: column;
