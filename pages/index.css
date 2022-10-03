@@ -21,6 +21,7 @@
 @import url(../blocks/feynman/__title/feynman__title.css);
 @import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
 @import url(../blocks/feynman/__link/feynman__link.css);
+@import url(../blocks/feynman/__img/feynman__img.css);
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 @import url(../blocks/section-title/section-title.css);
@@ -68,5 +69,5 @@
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__link/resources__link.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
-@import url(../blocks/feynman/__img/feynman__img.css);
+
 
